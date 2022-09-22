@@ -11,7 +11,7 @@
     height: 20rem;
     background-color: violet;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     left: 7rem;
     top: 7.5rem;
     border: yellow dotted 3px;
@@ -24,6 +24,8 @@
     border: yellow dotted 3px;
     border-top: white solid 10px;
     border-left: white solid 10px;
+    position: relative;
+    left: 
 }
 .child2{
     width: 10rem;
@@ -33,7 +35,6 @@
     border: yellow dotted 3px;
     border-bottom: white solid 10px;
     border-left: white solid 10px;
-    
 }
 .child3{
     width: 10rem;
@@ -98,6 +99,16 @@
     top: -2rem;
     border-radius: 0 90% 0 0;
 }
+ .tip5{
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 0 0 90% 0;
+    transform: rotate(-180deg);
+    position: absolute;
+    left: 100rem;
+    top: 10rem;
+}  
 nav{
     width: 50%;
     margin: 0 auto;
@@ -119,7 +130,8 @@ main{
 
 }
 body{
-    background-color: aliceblue;
+    color: white;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -129,7 +141,28 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: black;
+    color: white;
     border-bottom: 2px solid;
     padding-bottom: 2px;
 }
+p:before{
+    content: '🌟';
+    font-size: 30px;
+}
+/*
+#person{
+    display: inline-block;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    background-image: ;
+    background-position: 0px 312px;
+    animation: 
+}
+@keyframes walk{
+    to {
+
+    }
+
+}
+*/
