@@ -1,0 +1,135 @@
+.box{
+    margin: 0 auto;
+    display: flex;
+    width: 35rem;
+    height: 35rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.box2{
+    width: 20rem;
+    height: 20rem;
+    background-color: violet;
+    border-radius: 50%;
+    position: absolute;
+    left: 7rem;
+    top: 7.5rem;
+    border: yellow dotted 3px;
+}
+.child1{
+    width: 10rem;
+    height: 10rem;
+    background-color: pink;
+    border-radius: 0 60% 0 60%;
+    border: yellow dotted 3px;
+    border-top: white solid 10px;
+    border-left: white solid 10px;
+}
+.child2{
+    width: 10rem;
+    height: 10rem;
+    background-color: pink;
+    border-radius: 60% 0 60% 0;
+    border: yellow dotted 3px;
+    border-bottom: white solid 10px;
+    border-left: white solid 10px;
+    
+}
+.child3{
+    width: 10rem;
+    height: 10rem;
+    background-color: pink;
+    position: absolute; 
+    left: 10rem;
+    top: 0rem;
+    border-radius: 60% 0 60% 0;
+    border: yellow dotted 3px;
+    border-top: white solid 10px;
+    border-right: white solid 10px;
+}
+.child4{
+    width: 10rem;
+    height: 10rem;
+    background-color: pink;
+    position: absolute; 
+    left: 10rem;
+    top: 10rem;
+    border-radius: 0 60% 0 60%;
+    border: yellow dotted 3px;
+    border-bottom: white solid 10px;
+    border-right: white solid 10px;
+}
+.child5{
+    width: 5rem;
+    height: 5rem;
+    left: 7.5rem;
+    top: 7rem;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 50%;
+    border: yellow solid 5px;
+}
+
+.tip1{
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 0 0 90% 0;
+}
+.tip2{
+    width: 2rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 0 0 90% 0;
+}
+.tip3{
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 0 90% 0 0;
+    position: absolute;
+    top: 19.5rem;
+}
+.tip4{
+    width: 2rem;
+    height: 4rem;
+    background-color: white;
+    position: absolute;
+    top: -2rem;
+    border-radius: 0 90% 0 0;
+}
+nav{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+p{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+}
+main{
+    display: flex;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+}
