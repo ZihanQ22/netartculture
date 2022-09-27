@@ -5,6 +5,7 @@
     height: 35rem;
     background-color: blueviolet;
     border-radius: 50%;
+    border: #ED6673 double 10px;
 }
 .box2{
     width: 20rem;
@@ -12,9 +13,10 @@
     background-color: violet;
     border-radius: 50%;
     position: relative;
-    left: 7rem;
+    left: 7.5rem;
     top: 7.5rem;
     border: yellow dotted 3px;
+
 }
 .child1{
     width: 10rem;
@@ -24,9 +26,11 @@
     border: yellow dotted 3px;
     border-top: white solid 10px;
     border-left: white solid 10px;
-    position: relative;
-    left: 
+    position:absolute;
+    top: 8.5rem;
+    left: 11.5rem;
 }
+
 .child2{
     width: 10rem;
     height: 10rem;
@@ -35,36 +39,41 @@
     border: yellow dotted 3px;
     border-bottom: white solid 10px;
     border-left: white solid 10px;
+    position: absolute;
+    left: 11.5rem;
+    top: 19rem;
+
 }
 .child3{
     width: 10rem;
     height: 10rem;
     background-color: pink;
-    position: absolute; 
-    left: 10rem;
-    top: 0rem;
     border-radius: 60% 0 60% 0;
     border: yellow dotted 3px;
     border-top: white solid 10px;
     border-right: white solid 10px;
+    position: absolute; 
+    left: 22rem;
+    top: 8.5rem;
 }
 .child4{
     width: 10rem;
     height: 10rem;
     background-color: pink;
-    position: absolute; 
-    left: 10rem;
-    top: 10rem;
     border-radius: 0 60% 0 60%;
     border: yellow dotted 3px;
     border-bottom: white solid 10px;
     border-right: white solid 10px;
+    position: absolute; 
+    left: 22rem;
+    top: 19rem;
 }
 .child5{
+    position:absolute;
     width: 5rem;
     height: 5rem;
-    left: 7.5rem;
-    top: 7rem;
+    left: 19.5rem;
+    top: 16rem;
     background-color: greenyellow;
     position: absolute;
     border-radius: 50%;
@@ -76,6 +85,8 @@
     height: 2rem;
     background-color: white;
     border-radius: 0 0 90% 0;
+    position: absolute;
+
 }
 .tip2{
     width: 2rem;
@@ -89,26 +100,52 @@
     background-color: white;
     border-radius: 0 90% 0 0;
     position: absolute;
-    top: 19.5rem;
+    top: 8rem;
 }
 .tip4{
     width: 2rem;
     height: 4rem;
     background-color: white;
-    position: absolute;
-    top: -2rem;
     border-radius: 0 90% 0 0;
+    position: absolute;
+    top: 6rem;
 }
  .tip5{
     width: 4rem;
     height: 2rem;
     background-color: white;
-    border-radius: 0 0 90% 0;
-    transform: rotate(-180deg);
     position: absolute;
-    left: 100rem;
-    top: 10rem;
+    left: 6rem;
+    border-radius: 0 0 0 90%;
 }  
+.tip6{
+    width: 2rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 0 0 0 90%;
+    position: absolute;
+    left: 8rem;
+}
+.tip7{
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 90% 0 0 0;
+    left: 6rem;
+    top: 8rem;
+}
+.tip8{
+    width: 2rem;
+    height: 4rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 90% 0 0 0;
+    left: 8rem;
+    top: 6rem;
+}
+
+
 nav{
     width: 50%;
     margin: 0 auto;
